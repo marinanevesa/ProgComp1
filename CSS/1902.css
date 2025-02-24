@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*fonte do texto*/
+    background-color: antiquewhite;
+    /*define a cor do fundo*/
+    display: flex;
+    /* usa modelo FLexBox, conceito de caixa para posicionamento*/
+    justify-content: center;
+    /*centraliza na horizontal*/
+    height: 100vh;
+    /*altura da pagina (vertical heigh*/
+    align-items: center;
+    /*centraliza na horizontal*/
+}
+
+.container {
+    background-color: rgb(241, 146, 146);
+    padding: 20px;
+    /*espaçamento interno de*-ntro*/
+    /* parecido com o void, pode ser usado varias vezes*/
+    border-radius: 10px;
+    text-align: center;
+    /*alinhamento do texto*/
+    box-shadow: 0 4px 8px rgb(197, 26, 26)
+        /*sombra*/
+}
+button{
+    background-color: rgba(197, 58, 58, 0.689);
+    color:black;
+    border : none;
+    padding: 10px 20px; /*10 em cima e embaixo, 20 lados*/
+    border-radius: 50px;/*arredondar botão*/  
+}
+/*ao passar o mouse ensima do botão*/
+button:hover{
+background-color:rgba(218, 106, 65, 0.452);
+box-shadow: 2px 2px 2px rgb(221, 103, 103);
+}
+.foto{
+    border-radius: 50%; /*canto arrendii*/
+    width:100px; /*largura*/
+    height: 100px; /*altura*/
+    margin-bottom: 10%; /*dist. ft do nome*/
+}
